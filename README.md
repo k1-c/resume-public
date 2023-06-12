@@ -1,28 +1,18 @@
-# Create T3 App
+# Resume
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+Shun Kimura's Web Resume
 
-## What's next? How do I make an app with this?
+## 閲覧方法
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+レジェメの管理者からアクセストークンを入手し、ダイアログに入力することでレジェメが閲覧できます。
+また、トークンをURLに含めることもできます。
+```
+# Example
+https://resume.k1-c.dev?token=f10c66ae-2fa2-5f8b-56bd-40b274ef8e12
+```
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+# Acknowledgments
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
-
-## Learn More
-
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
-
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
-
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
-
-## How do I deploy this?
-
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+This repository uses the [T3 Stack](https://create.t3.gg/)
+T3 Stack is an awesome approach to web application development and has given us the highway.
+Thanks to Theo and other contributors.
