@@ -5,7 +5,6 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "postinstall": "prisma generate",
     "lint": "next lint",
     "start": "next start"
   },
@@ -42,6 +41,7 @@
     "prettier": "^2.8.8",
     "prettier-plugin-tailwindcss": "^0.2.8",
     "tailwind-merge": "^1.13.1",
+    "tailwind-variants": "^0.1.6",
     "tailwindcss": "^3.3.0",
     "tailwindcss-animate": "^1.0.6",
     "tailwindcss-radix": "^2.8.0",
